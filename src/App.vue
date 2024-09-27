@@ -1,9 +1,12 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Portfolio</router-link> |
+     <router-link to="/resume"> Resume</router-link> |
+    <a href="https://www.linkedin.com/in/irinazivitz"> LinkedIn</a> | 
+    <a href="https://github.com/irinazivitz"> GitHub</a> 
   </nav>
-  <router-view/>
+  <router-view/> 
+ 
 </template>
 
 <style>
@@ -12,7 +15,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 
 nav {
@@ -22,9 +24,10 @@ nav {
 nav a {
   font-weight: bold;
   color: #2c3e50;
+  text-decoration: none;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #5db58d;
 }
 </style>
